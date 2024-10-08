@@ -29,3 +29,18 @@ java OrganizedLinkedList
 3. It sorts the collected integers in ascending order using Collections.sort().
 4. The sorted integers are stored in a LinkedList for efficient insertions.
 5. Finally, the sorted integers are displayed.
+
+## Explanation of the code
+
+### main() method
+
+This method follows these steps:
+
+- Prompts the user for a list of integers.
+- Reads the integers and handles any input errors.
+- Sorts the integers in ascending order using Collections.sort().
+- Prints the sorted list.
+
+### readIntegerInput() method
+
+This method reads a list of integers from the user's input, handles potential input errors, and allows the user to end input by typing "finish."
